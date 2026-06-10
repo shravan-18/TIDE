@@ -1,12 +1,20 @@
-# TIDE
-TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration
-# TIDE: Two-Stage Inverse Degradation Estimation
+# TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration
 
-**Official Implementation of "Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration"**
+<div align="center">
 
+[![CVPR 2026](https://img.shields.io/badge/CVPR-2026%20Workshops-blue)](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Venkatraman_TIDE_Two-Stage_Inverse_Degradation_Estimation_with_Guided_Prior_Disentanglement_for_CVPRW_2026_paper.html)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.07171-b31b1b.svg)](https://arxiv.org/abs/2512.07171)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 1.9+](https://img.shields.io/badge/pytorch-1.9+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+</div>
+
+> **TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration**  
+> *Shravan Venkatraman, Rakesh Raj Madavan, Pavan Kumar Sathya Venkatesh, Muthu Subash Kavitha*  
+> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 2026 [NTIRE]
+
+#### [project page](https://rakesh-123-cryp.github.io/TIDE/) | [paper](https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Venkatraman_TIDE_Two-Stage_Inverse_Degradation_Estimation_with_Guided_Prior_Disentanglement_for_CVPRW_2026_paper.html) | [arXiv](https://arxiv.org/abs/2512.07171) | [code](https://github.com/shravan-18/TIDE)
 
 ---
 
@@ -21,8 +29,8 @@ TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement
 - [Ablation Studies](#ablation-studies)
 <!-- - [Model Zoo](#model-zoo) -->
 - [Code Structure](#code-structure)
-<!-- - [Citation](#citation)
-- [Acknowledgments](#acknowledgments) -->
+- [Citation](#citation)
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ---
 
@@ -110,7 +118,7 @@ Initial Restoration (I₁) → Refinement Network → Final Restoration (I₂)
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/TIDE.git
+   git clone https://github.com/shravan-18/TIDE.git
    cd TIDE
    ```
 
@@ -472,50 +480,11 @@ python get_hardware_metrics.py \
 If you find this work helpful, please consider citing:
 
 ```bibtex
-@misc{venkatraman2025tidetwostageinversedegradation,
-      title={TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration}, 
-      author={Shravan Venkatraman and Rakesh Raj Madavan and Pavan Kumar S and Muthu Subash Kavitha},
-      year={2025},
-      eprint={2512.07171},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.07171}, 
+@inproceedings{venkatraman2026tide,
+  title={TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration},
+  author={Venkatraman, Shravan and Madavan, Rakesh Raj and Venkatesh, Pavan Kumar Sathya and Kavitha, Muthu Subash},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2609--2619},
+  year={2026}
 }
 ```
-
-<!-- ---
-
-## Acknowledgments
-
-This work builds upon several excellent open-source projects:
-- [PyTorch](https://pytorch.org/) - Deep learning framework
-- [pytorch-msssim](https://github.com/VainF/pytorch-msssim) - SSIM implementation
-- [LPIPS](https://github.com/richzhang/PerceptualSimilarity) - Perceptual loss
-
-Special thanks to the underwater image processing community for dataset curation and benchmarking efforts.
-
---- -->
-
-<!-- ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
-
-<!-- ---
-
-## Contact
-
-For questions or collaboration opportunities:
-- **Email**: your.email@university.edu
-- **Issues**: [GitHub Issues](https://github.com/yourusername/TIDE/issues)
-- **Project Page**: [https://yourproject.page](https://yourproject.page)
-
---- -->
-
-<!-- ## Updates
-
-- **[2024-XX-XX]**: Initial release
-- **[2024-XX-XX]**: Added ablation study framework
-- **[2024-XX-XX]**: Pre-trained models released
-
---- -->
-
